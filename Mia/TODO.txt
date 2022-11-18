@@ -1,0 +1,2 @@
+-Micro memory size
+-Status flags as uint8_t and bitmasks

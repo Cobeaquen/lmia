@@ -1,0 +1,25 @@
+﻿  LuaHelper.cpp
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(74,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(75,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(86,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(87,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(97,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(106,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(115,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(129,41): warning C4244: 'argument': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(139,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(140,18): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint16_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(150,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(166,41): warning C4244: 'argument': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(176,17): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(177,18): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint32_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\LuaHelper.cpp(211,18): warning C4244: 'initializing': conversion from 'lua_Integer' to 'uint16_t', possible loss of data
+  MiaDebug.cpp
+  main.cpp
+  mia.cpp
+C:\Users\cobea\source\repos\Mia\Mia\mia.cpp(173,27): warning C4244: 'argument': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\mia.cpp(195,18): warning C4244: '=': conversion from 'int16_t' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\mia.cpp(214,19): warning C4244: '=': conversion from 'int16_t' to 'uint8_t', possible loss of data
+C:\Users\cobea\source\repos\Mia\Mia\mia.cpp(551,18): warning C4244: '=': conversion from 'int16_t' to 'uint8_t', possible loss of data
+  Generating Code...
+  Mia.vcxproj -> C:\Users\cobea\source\repos\Mia\Debug\Mia.exe

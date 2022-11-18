@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mia", "Mia\Mia.vcxproj", "{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}.Debug|x64.ActiveCfg = Debug|x64
+		{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}.Debug|x64.Build.0 = Debug|x64
+		{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}.Debug|x86.ActiveCfg = Debug|Win32
+		{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}.Debug|x86.Build.0 = Debug|Win32
+		{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}.Release|x64.ActiveCfg = Release|x64
+		{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}.Release|x64.Build.0 = Release|x64
+		{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}.Release|x86.ActiveCfg = Release|Win32
+		{C68DA5F3-D433-4A1C-86BF-D4EC4A5D6CE7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B1701B6-5A36-4672-A6F1-C2E997A0291E}
+	EndGlobalSection
+EndGlobal
