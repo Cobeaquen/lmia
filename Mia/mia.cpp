@@ -1,5 +1,6 @@
 #include "mia.h"
 #include <algorithm>
+#include <memoryapi.h>
 
 std::vector<std::function<void(Mia* mia)>> ALUInstructionTable = {
         nopNF, busToARNF, busToAR1CNF, arResetF,

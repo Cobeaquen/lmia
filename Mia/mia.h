@@ -7,6 +7,8 @@
 #include <vector>
 //#include "MiaDebug.h"
 
+#define MIA_JIT
+
 #define PRIMARY_MEMORY_WORDS 256
 #define MICRO_MEMORY_WORDS 256
 
@@ -76,7 +78,6 @@ union Instruction
     uint32_t byteCode;
 };
 
-//#pragma pack(1)
 union uInstruction
 {
     struct // 25 bits used
@@ -143,8 +144,6 @@ struct Mia
     //MiaDebug debugger;
     //union uInstruction uIR;
 };
-
-//#pragma pack()
 
 //void setupTables();
 void initializeMia(Mia*);

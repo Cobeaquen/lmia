@@ -22,12 +22,14 @@
     <ClInclude Include="LuaHelper.h" />
     <ClInclude Include="mia.h" />
     <ClInclude Include="MiaDebug.h" />
+    <ClInclude Include="MiaJIT.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LuaHelper.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mia.cpp" />
     <ClCompile Include="MiaDebug.cpp" />
+    <ClCompile Include="MiaJIT.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="TODO.txt" />
