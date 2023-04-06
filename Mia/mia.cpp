@@ -1,6 +1,5 @@
 #include "mia.h"
 #include <algorithm>
-#include <memoryapi.h>
 
 std::vector<std::function<void(Mia* mia)>> ALUInstructionTable = {
         nopNF, busToARNF, busToAR1CNF, arResetF,
@@ -139,16 +138,6 @@ void uClock(Mia* mia, uint8_t* halt)
     //instruction.byteCode = fetchUM(mia);
     mia->uIR = fetchUM(mia); //instruction.byteCode;
 
-    /*
-    uint8_t alu = getALUField(mia->uIR);
-    uint8_t tb = getTBField(mia->uIR);
-    uint8_t fb = getFBField(mia->uIR);
-    uint8_t s = getSField(mia->uIR);
-    uint8_t p = getPField(mia->uIR);
-    uint8_t lc = getLCField(mia->uIR);
-    uint8_t seq = getSEQField(mia->uIR);
-    uint8_t uAdr = getUADRField(mia->uIR);
-    */
     TBTable[getTBField(mia->uIR)](mia); // Send selected register to bus
     ALUInstructionTable[getALUField(mia->uIR)](mia); // Execute ALU function
     if (getTBField(mia->uIR) == 0b111)

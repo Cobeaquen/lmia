@@ -132,8 +132,7 @@ static int initMia(lua_State *L)
     luaL_newmetatable(L, "mi");
     luaL_setfuncs(L, regs, NULL);
 
-    Mia m, **mia;
-    m = Mia();
+    Mia **mia;
     mia = (Mia**)lua_newuserdata(L, sizeof(Mia*));
     *mia = new Mia();
 
